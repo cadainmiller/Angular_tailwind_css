@@ -15,8 +15,9 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "ngx-build-plus:browser",
           "options": {
+            "extraWebpackConfig": "webpack.config.js",
             "outputPath": "dist/tailwind-css",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -64,9 +65,10 @@
           }
         },
         "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
+          "builder": "ngx-build-plus:dev-server",
           "options": {
-            "browserTarget": "tailwind-css:build"
+            "browserTarget": "tailwind-css:build",
+            "extraWebpackConfig": "webpack.config.js"
           },
           "configurations": {
             "production": {
@@ -81,9 +83,10 @@
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "ngx-build-plus:karma",
           "options": {
             "main": "src/test.ts",
+            "extraWebpackConfig": "webpack.config.js",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tailwind-css"
+    }
+  },
+  "defaultProject": "tailwind-css",
+  "cli": {
+    "analytics": false
+  }
 }
