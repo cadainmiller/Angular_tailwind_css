@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 
+## Useful links 
+
+[Blog used to setup tailwind](https://notiz.dev/blog/angular-10-with-tailwindcss#remove-unused-css-styles)
+[Tailwind docs](https://notiz.dev/blog/angular-10-with-tailwindcss#remove-unused-css-styles)
+[Tailwind Starter](https://tailwindcomponents.com/component/)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
