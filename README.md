@@ -4,8 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Useful links 
 
-[Blog used to setup tailwind](https://notiz.dev/blog/angular-10-with-tailwindcss#remove-unused-css-styles)
-[Tailwind docs](https://notiz.dev/blog/angular-10-with-tailwindcss#remove-unused-css-styles)
+[Blog used to setup tailwind](https://notiz.dev/blog/angular-10-with-tailwindcss#remove-unused-css-styles) <br />
+[Tailwind docs](https://notiz.dev/blog/angular-10-with-tailwindcss#remove-unused-css-styles)<br />
 [Tailwind Starter](https://tailwindcomponents.com/component/)
 
 ## Development server
